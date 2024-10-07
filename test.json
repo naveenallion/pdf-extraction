@@ -1,0 +1,93 @@
+{
+  "status": "success",
+  "message": "PDF extracted successfully",
+  "data": {
+    "extractedData": [
+      {
+        "id": "28735626758",
+        "fileName": "test_pdf1",
+        "data": [
+          {
+            "id": "9834ea03-fe2f-45e2-851c-2edfe64c1966",
+            "keyIntended": "Invoice Number",
+            "keyFound": "Invoice Number",
+            "value": "001",
+            "dataType": "string",
+            "categoryId": "282734578",
+            "occurrence": "string",
+            "accuracy": 1,
+            "location": "string"
+          },
+          {
+            "id": "13aa968f-ea15-4a26-a6aa-334a45ef8e2b",
+            "keyIntended": "Invoice Date",
+            "keyFound": "Date",
+            "value": "01/01/2024",
+            "dataType": "Date",
+            "categoryId": "282733534578",
+            "occurrence": "1",
+            "accuracy": 0,
+            "location": "string"
+          }
+        ],
+        "categories": [
+          {
+            "id": "282734578",
+            "categoryName": "Account Details"
+          },
+          {
+            "id": "282733534578",
+            "categoryName": "Contact Details"
+          }
+        ]
+      },
+      {
+        "id": "28735626758",
+        "fileName": "test_pdf2",
+        "data": [
+          {
+            "id": "9834ea03-fe2f-45e2-851c-2edfe64c1966",
+            "keyIntended": "Invoice Number",
+            "keyFound": "Invoice Number",
+            "value": "001",
+            "dataType": "string",
+            "categoryId": "282734578",
+            "occurrence": "string",
+            "accuracy": 1,
+            "location": "string"
+          },
+          {
+            "id": "13aa968f-ea15-4a26-a6aa-334a45ef8e2b",
+            "keyIntended": "Invoice Date",
+            "keyFound": "Date",
+            "value": "01/01/2024",
+            "dataType": "Date",
+            "categoryId": "282733534578",
+            "occurrence": "1",
+            "accuracy": 0,
+            "location": "string"
+          }
+        ],
+        "categories": [
+          {
+            "id": "282734578",
+            "categoryName": "Account Details"
+          },
+          {
+            "id": "282733534578",
+            "categoryName": "Contact Details"
+          }
+        ]
+      }
+    ],
+    "schemas": [
+      {
+        "name": "string",
+        "type": "string",
+        "count": 0,
+        "description": "string",
+        "searchTerm": "string"
+      }
+    ]
+  }
+}
